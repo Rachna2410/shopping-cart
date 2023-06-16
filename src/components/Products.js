@@ -53,7 +53,8 @@ const Products = () => {
             image={product.images}
             title={product.title}
             description={product.description}
-            addToCart={() => addToCart(product)}
+            onClick={() => addToCart(product)}
+            buttonName={"Add to Cart"}
           />
         ))}
       </div>
